@@ -1,0 +1,87 @@
+* {
+    font-family: 'Baloo Da 2', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+/******************* HEADER STYLES *********************/
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+header h1 span {
+    font-weight: 700;
+}
+
+header h2 {
+    color: #bdc3c7;
+    font-weight: 300;
+}
+
+/******************* FORM STYLES *********************/
+
+.form  {
+    margin: 50px auto 20px;
+    width: 800px;
+}
+
+#todoInput {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #34495e;
+    color: #34495e;
+    font-size: 28px;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+}
+
+/********************* LIST STYLES *********************/
+.list {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.task {
+    color: #34495e;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    transition: all .3s ease;
+}
+
+.task:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.task:hover span {
+    opacity: 1;
+}
+
+.done {
+    color: #bdc3c7;
+    text-decoration: line-through;
+}
+
+li span {
+    color: #c0392b;
+    float: right;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+li span:hover {
+    color: #e74c3c;
+}
